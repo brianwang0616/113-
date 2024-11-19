@@ -1,0 +1,129 @@
+h2 {position: absolute; top:30%; left:50%;}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0px;
+    margin:0px; box-sizing: border-box;
+}
+
+header {
+    background-color: #2c3e50;
+    background-image:url("image/title.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-align: center;
+    background-position:center;
+    weight: 100%;
+    height: 110vh;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+header div img {
+    size: cover; height: 12vh;
+}
+
+header hr {
+    border-bottom: 1px gray
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.column1 {float: left; width: 30%70%;padding: 30px; height: 150px; text-align: left;@media screen and (max-width: 700px){.flex-container {flex-direction: column1;}}}
+
+nav ul {
+    list-style-type: none;
+    padding: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main1 {float: center; width: 94% ; height: 70%; text-align: center; padding: 15px ; text-position: middle}
+.main2 {float: center; width: 30px; height: 10px; }
+
+.column2 {float: left; width: 45% ;padding: 15px; height: 580px; text-align: left;}
+
+.column2 section {
+    padding: 20px;image-position: middle;
+}
+
+#engine{
+    padding: 20px
+}
+
+#engineP{
+    size: cover;height:470px ;width: 100%;
+    background-image:url("image/3008engine.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-align: center;
+    background-position:center
+}
+
+.column3 {
+    display: flex; height: 75vh;
+}
+.column3 > div {
+    flex-basis: 50%; text-align: center;padding: 15px;
+}
+.column3 > div > img {
+    size: cover; height: 40vhvh;max-width: 60vh
+}
+
+#interior{
+    padding: 16px
+}
+
+#interiorP{
+    size: cover;height:470px ;width: 100%;
+    background-image:url("image/3008interior.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-align: center;
+    background-position:center
+}
+
+#chassis{
+    padding: 16px
+}
+
+#chassisP{
+    size: cover;height:470px ;width: 100%;
+    background-image:url("image/3008chassis.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-align: center;
+    background-position:center
+}
+
+.column4 {
+    display: flex; height: 30vh;
+}
+.column4 > div {
+    flex-basis: 23%; text-align: center;padding: 13px;
+}
+.column4 > div > img {
+    size: cover; height: 25vhvh;max-width: 30vh
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #008B8B;
+    color: white;
+}
