@@ -1,0 +1,236 @@
+h2 {position: absolute; top:30%; left:50%;}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:none;}
+
+html{scroll-behavior:smooth}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0px;
+    margin:0px; box-sizing: border-box;
+}
+
+header {
+    background-color: #2c3e50;
+    background-image:url("image/title.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-align: center;
+    background-position:center;
+    weight: 100%;
+    height: 110vh;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+header div img {
+    size: cover; height: 80px;
+}
+
+header hr {
+    border-bottom: 1px gray
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.column1 {float: left; width: 30%30%40%;padding: 30px; height: 150px; text-align: left}
+
+@media screen and (max-width: 885px){
+.column1 {
+flex-direction: column;
+width: 95% ;padding: 20px; height: 50px; text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 15px;
+    text-align: center
+}
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main1 {float: center; width: 94% ; height: 70%; text-align: center; padding: 15px ; text-position: middle}
+
+#PStyle{color:#46A3FF;font-size:27px}
+#PStyle2{font-size:17px}
+
+.column2 {float: left; width: 44% ;padding: 16px; height: 550px; text-align: middle;}
+
+.column2 section {
+    padding: 20px;image-position: middle;
+}
+@media screen and (max-width: 700px){
+.column2 {
+flex-direction: column;
+float: center; width: 95% ;padding: 16px; height: 550px; text-align: middle;
+}
+#PStyle{
+    color:#46A3FF ;font-size:30px
+}
+#PStyle2{font-size:20px}
+}
+
+#engine{
+    padding: 20px;
+}
+
+#engineP{
+    size: cover;height:470px ;width: 100%;
+    background-image:url("image/3008engine.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-align: center;
+    background-position:center;
+    animation-name: anime1; animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime1 {
+0% {background-image: url('image/3008engine.jpg'); background-size: cover}
+25% {background-image: url('image/3008engine.jpg'); background-size: cover}
+50% {background-image: url('image/3008gear.jpg'); background-size: cover}
+75% {background-image: url('image/3008gear.jpg'); background-size: cover}
+}
+
+.column3 {
+    display: flex; height: 550px;
+}
+.column3 > div {
+    flex-basis: 50%; text-align: center;padding: 15px;
+}
+.column3 > div > img {
+    size: cover; height: 55vh;max-width: 80vh
+}
+@media screen and (max-width: 900px){
+.column3 {
+flex-direction: column;
+display: flex;
+height:1100px
+}
+}
+#interior{
+    padding: 16px
+}
+
+#interiorP{
+    size: cover;height:470px ;width: 100%;
+    background-image:url("image/3008interior.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-align: center;
+    background-position:center;
+    animation-name: anime2; animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime2 {
+0% {background-image: url('image/3008interior.jpg'); background-size: cover}
+17% {background-image: url('image/3008interior.jpg'); background-size: cover}
+33% {background-image: url('image/3008sofa.jpg'); background-size: cover}
+49% {background-image: url('image/3008sofa.jpg'); background-size: cover}
+65% {background-image: url('image/3008speaker.jpg'); background-size: cover}
+81% {background-image: url('image/3008speaker.jpg'); background-size: cover}
+}
+
+#chassis{padding: 16px}
+
+#chassisP{
+    size: cover;height:470px ;width: 100%;
+    background-image:url("image/3008chassis.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-align: center;
+    background-position:center;
+    animation-name: anime3; animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime3 {
+0% {background-image: url('image/3008chassis.jpg'); background-size: cover}
+17% {background-image: url('image/3008chassis.jpg'); background-size: cover}
+33% {background-image: url('image/3008size.jpg'); background-size: cover}
+49% {background-image: url('image/3008size.jpg'); background-size: cover}
+65% {background-image: url('image/3008carriage.jpg'); background-size: cover}
+81% {background-image: url('image/3008carriage.jpg'); background-size: cover}
+}
+
+.column4 {
+    float: center;width:cover; padding: 16px; height: 80px; text-align: middle;  text-align: center;}
+.column4 img {
+    size: cover; height: 260px;max-width: 260px
+}
+
+@media screen and (max-width: 1100px){
+.column4 {
+    float: center;width:cover; padding: 16px; height: 270px; text-align: middle;  text-align: center;}
+.column4 img {
+    size: cover; height: 260px;max-width: 260px
+}
+}
+@media screen and (max-width: 570px){
+.column4 {
+    float: center;width:cover; padding: 16px; height: 200px; text-align: middle;  text-align: center;}
+.column4 img {
+    size: cover; height: 220px;max-width: 220px
+}
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #FF0080;
+  color: white;
+}
+
+.fa-google {
+  background: #CE0000;
+  color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 300px;
+    padding: 10px;
+    background-color: #3C3C3C;
+    color: white;
+}
+.column5 {
+    display: flex
+}
+.column5 div {
+    float:center ;flex-basis: 32%; text-align: middle;padding: 13px
+}
