@@ -126,7 +126,7 @@ float: center; width: 95% ;padding: 16px; height: 550px; text-align: middle;
 .column3 {
 flex-direction: column;
 display: flex;
-height:1300px
+height:1200px
 }
 }
 #interior{
