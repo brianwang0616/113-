@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冷笑話大冒險</title>
+    <link rel="stylesheet" href="styleRPG.css">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico" >
+</head>
+<body>
+    <div id="title">
+        <div id="columnT1">
+           <button id="TBA1"type="button" onclick="T1()">進入遊戲</button>
+        </div>
+        <div id="columnT2">
+           <button id="TBA2"type="button" onclick="T2()">故事概要</button>
+        </div>
+        <div id="columnT3">
+           <button id="TBA3"type="button" onclick="T3()">角色介紹</button>
+        </div>
+    </div>
+
+    <div id="container" style="display:none">
+        <div id="screen"></div>
+        <div id="Home" style="display:none">
+            <div>
+                <button id="TB2"type="button" onclick="T4()">回到首頁</button>
+            </div>
+            <div>
+                <button id="TB3"type="button" onclick="T5()" style="display:none">確定進入</button>
+            </div>
+        </div>
+        <div id="NameBar" style="display:none">
+            <input type="text" id="name" size="50" maxlength="15">
+            <button id="TBN"type="button" onclick="T6()">確定</button>
+        </div>
+        <div id="bottom1" style="display:none">
+            <button id="TBM1"type="button" onclick="T7()">繼續</button>
+        </div>
+    </div>
+    <div id="container2" style="display:none">
+        <div id="bottom2" >
+        </div>
+        <div id="container3" style="display:none">
+            <div>
+                <button id="cho1"type="button" onclick="T8()">進入戰鬥</button></div>
+            <div>
+                <button id="cho2"type="button" onclick="T9()">原地發呆</button></div>
+        </div>
+        <div id="bottom3" style="display:none">
+        </div>
+        <div id="container4" style="display:none">
+            <button id="cho3"type="button" onclick="T10()">老掉牙的笑話</button></div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
